@@ -1,11 +1,11 @@
 class Pet < Formula
   desc "Simple command-line snippet manager"
   homepage "https://github.com/knqyf263/pet"
-  version "0.2.3"
-  url "https://github.com/knqyf263/pet/releases/download/v#{version}/pet_#{version}_darwin_amd64.zip"
-  sha256 "00cc6c762c477f0973508bbcf51286d35017345963f48d7bd7418aaccdd92cb0"
+  url "https://github.com/knqyf263/pet/releases/download/v0.2.4/pet_0.2.4_darwin_amd64.zip"
+  version "0.2.4"
+  sha256 "3fc1317fe9011456b219b4034967938103bcd066132c008e454830985f9cbd63"
 
-  depends_on "peco"
+  depends_on "fzf"
 
   def install
     bin.install Dir['pet']
